@@ -1,1 +1,2 @@
-string name ="Dula";
+string name ="Dulal";
+Console.WriteLine("hello",name)
