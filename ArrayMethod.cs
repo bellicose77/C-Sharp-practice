@@ -17,7 +17,7 @@ namespace ArrayMethod {
             int x = nums.Max();
             int y = nums.Min();
             int total = nums.Sum();
-            Console.WriteLine("Max value " + x + "Min value " + y + "Total value" + total);
+            Console.WriteLine("Max value " + " " + x + " Min value " + y + " Total value " + total);
            
         }
     }
