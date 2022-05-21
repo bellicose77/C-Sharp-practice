@@ -18,7 +18,12 @@ namespace ArrayMethod {
             int y = nums.Min();
             int total = nums.Sum();
             Console.WriteLine("Max value " + " " + x + " Min value " + y + " Total value " + total);
+            myMethod();
            
+        }
+
+        static void myMethod(){
+            Console.WriteLine("Method is calling ");
         }
     }
 }
