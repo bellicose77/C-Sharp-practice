@@ -2,13 +2,16 @@ using System;
 
 namespace OOP
 {
-    class Car
+    class Program
     {
-        string color = "Blue";
+      
         static void Main(string[] args)
         {
             Car myObj = new Car();
             Console.WriteLine(myObj.color);
         }
+    }
+    class Car{
+        public string color = "BLue";
     }
 }
