@@ -14,6 +14,10 @@ namespace ArrayMethod {
             foreach(int j in nums){
                 Console.WriteLine(j);
             }
+            int x = nums.Max();
+            int y = nums.Min();
+            int total = nums.Sum();
+            Console.WriteLine("Max value " + x + "Min value " + y + "Total value" + total);
            
         }
     }
