@@ -10,6 +10,8 @@ namespace Overloading
         static void Main(string[] args)
         {
             int sum = myMethod(4,6);
+            Console.WriteLine(sum);
+
         }
     }
 }
