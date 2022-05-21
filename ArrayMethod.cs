@@ -9,6 +9,7 @@ namespace ArrayMethod {
             for(int i=0;i<nums.Length;i++){
               Console.WriteLine(nums[i]);
             }
+            Array.Sort(nums);
             foreach(int j in nums){
                 Console.WriteLine(j);
             }
