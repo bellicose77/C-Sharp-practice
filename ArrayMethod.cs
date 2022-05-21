@@ -18,12 +18,12 @@ namespace ArrayMethod {
             int y = nums.Min();
             int total = nums.Sum();
             Console.WriteLine("Max value " + " " + x + " Min value " + y + " Total value " + total);
-            myMethod();
+            myMethod("first ",12);
            
         }
 
-        static void myMethod(){
-            Console.WriteLine("Method is calling ");
+        static void myMethod(string se, int age){
+            Console.WriteLine("Method name is " + se + " and age is " + age);
         }
     }
 }
