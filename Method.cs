@@ -14,6 +14,12 @@ namespace Method
         string color;
         int maxspeed;
 
-        
+        public void myMethod()
+        {
+            Console.WriteLine(color);
+            Console.WriteLine(maxspeed);
+        }
+
+
     }
 }
