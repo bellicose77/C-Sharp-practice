@@ -20,6 +20,9 @@ namespace  Constructor
             model="Ford";
         }
 
-        //Console.WriteLine("d");
+       public void print()
+       {
+           
+       }
     }
 }
