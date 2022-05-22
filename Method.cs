@@ -6,7 +6,14 @@ namespace Method
     {
         static void Main(string[] args)
         {
-            
+
         }
+    }
+    class Car
+    {
+        string color;
+        int maxspeed;
+
+        
     }
 }
