@@ -7,16 +7,19 @@ namespace  Constructor
         static void Main(string[] args)
         {
             Car ford = new Car();
+            Console.WriteLine(ford.model);
 
         }
     }
 
     class Car{
-        string model;
+        public string model;
 
         public Car()
         {
             model="Ford";
         }
+
+        //Console.WriteLine("d");
     }
 }
