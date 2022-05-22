@@ -14,8 +14,8 @@ namespace Method
     }
     class Car
     {
-        string color;
-        int maxspeed;
+        public string color;
+        public int maxspeed;
 
         public void myMethod()
         {
