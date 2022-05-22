@@ -6,7 +6,10 @@ namespace Method
     {
         static void Main(string[] args)
         {
-
+             Car myObj = new Car();
+             myObj.color="blue";
+             myObj.maxspeed = 30;
+             myObj.myMethod();
         }
     }
     class Car
