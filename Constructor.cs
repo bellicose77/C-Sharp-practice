@@ -36,5 +36,10 @@ namespace  Constructor
             color = colorName;
             year = year;
         }
+
+        public void output()
+        {
+            Console.WriteLine("Bus name is " + model + " and color is " + color + " introduced in " + year );
+        }
     }
 }
