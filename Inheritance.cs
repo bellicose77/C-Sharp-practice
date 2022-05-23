@@ -6,7 +6,12 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            
+
         }
+    }
+
+    class Vechle
+    {
+
     }
 }
