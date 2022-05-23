@@ -7,6 +7,8 @@ namespace  Constructor
         static void Main(string[] args)
         {
             Car ford = new Car();
+            Bus ex = new Bus("hanif","blue",2012);
+            ex.output();
             Console.WriteLine(ford.model);
 
         }
