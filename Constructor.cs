@@ -30,6 +30,11 @@ namespace  Constructor
         public string color;
         public int year;
 
-        public Bus(string )
+        public Bus(string modelName,string colorName,int year)
+        {
+            model = modelName;
+            color = colorName;
+            year = year;
+        }
     }
 }
