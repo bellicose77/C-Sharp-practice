@@ -25,4 +25,11 @@ namespace  Constructor
            
        }
     }
+    class Bus{
+        public string model;
+        public string color;
+        public int year;
+
+        public Bus(string )
+    }
 }
